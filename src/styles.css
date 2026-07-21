@@ -76,7 +76,49 @@ header a{
     letter-spacing: 0.5px;
     font-family:"cairo", serif;
 }
-@media(max-width:900px){
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid {
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+footer{
+    color: var(--primary-color);
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.5)), url("/images/Battel-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.9; */
+    padding: 100px 0;
+}
+footer h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+footer li{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+footer a{
+    color: var(--primary-color);
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+@media(max-width:960px){
     header{
         padding: 60px 0;
     }
