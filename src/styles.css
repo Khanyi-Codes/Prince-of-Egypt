@@ -1,0 +1,17 @@
+/* 
+"Oswald"
+"Zen Loop"
+"Syne Tactile"
+"EB Garamond"
+"Cairo"
+"Playfair Display"
+ */
+h1{
+    font-family: "Playfair Display";
+    /* font-family: "Macondo Swash Caps", cursive; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 144px;
+    text-align: center;
+}
