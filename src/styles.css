@@ -83,13 +83,14 @@ section{
 .grid {
     display:grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 70px;
 }
 footer{
     color: var(--primary-color);
     background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.5)), url("/images/Battel-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /* opacity: 0.9; */
+    
     padding: 100px 0;
 }
 footer h3{
